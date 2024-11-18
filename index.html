@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca una serie o película</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Elige una opción:</h2>
+        <select id="selector">
+            <option id="peliculas" value="peliculas.json">Películas</option>
+            <option id="series" value="series.json">Series</option>
+        </select> 
+    </div>
+
+    <div class="container2">
+        <h2>¿Qué deseas ver?</h2>
+        <input type="text" id="busqueda" placeholder="Ingrese una palabra clave">
+        <button id="boton">Buscar</button>
+        <ul id="resultado"></ul>
+        <h6>Profe intenté de mil maneras la búsqueda y nada me funcionó :(</h6>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
